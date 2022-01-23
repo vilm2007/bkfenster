@@ -1,0 +1,105 @@
+ body {
+   background-color: #D2B48C;
+   margin: 0px;
+ }
+
+ .bk {
+   font-size: 150%;
+   font-family: Amasis MT Pro Medium;
+   background-color: grey;
+ }
+
+ .email {
+   text-align: center;
+   font-size: 130%;
+   border: 1px solid black;
+
+ }
+
+ .sidebar {
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: #2E8B57;
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+ }
+
+ .sidebar a {
+   display: block;
+   color: black;
+   padding: 16px;
+   text-decoration: none;
+ }
+
+ .sidebar a.active {
+   background-color: #008B8B;
+   color: white;
+ }
+
+ .sidebar a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+ }
+
+ div.content {
+   margin-left: 200px;
+   padding: 1px 16px;
+   height: 1000px;
+ }
+
+ @media screen and (max-width: 1300px) {
+   .sidebar {
+     width: 100%;
+     height: auto;
+     position: relative;
+   }
+
+   .sidebar a {
+     float: left;
+   }
+
+   div.content {
+     margin-left: 0;
+   }
+ }
+
+ @media screen and (max-width: 400px) {
+   .sidebar a {
+     text-align: center;
+     float: none;
+   }
+ }
+
+ .logo {
+   text-align: center;
+ }
+
+ .üdv {
+   text-align: center;
+ }
+
+ .kap {
+   text-align: center;
+ }
+
+ .kep {
+   padding-left: 10%;
+ }
+
+ .rend {
+   padding-left: 15%;
+   width: 100px;
+   height: 100px;
+   float: left;
+   transition: 2s;
+ }
+ .rend:hover{
+  transform: scale(1.3);
+  border-radius:100px ;
+ }
+
+ .szek {
+   padding-left: 15%;
+ }
