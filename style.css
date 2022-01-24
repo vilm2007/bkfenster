@@ -13,7 +13,7 @@
    text-align: center;
    font-size: 130%;
    border: 1px solid black;
-
+  
  }
 
  .sidebar {
@@ -89,17 +89,23 @@
  }
 
  .rend {
-   padding-left: 15%;
-   width: 100px;
-   height: 100px;
-   float: left;
-   transition: 2s;
- }
- .rend:hover{
-  transform: scale(1.3);
-  border-radius:100px ;
- }
-
- .szek {
+  height: auto;
+  width: 10%;
+  margin: 30px;
+  }
+.nyil{
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg,#0162c8,#55e7fc);
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  transition: 10s;
+}
+.szek {
    padding-left: 15%;
  }
