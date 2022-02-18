@@ -1,6 +1,9 @@
  body {
    background-color: #D2B48C;
    margin: 0px;
+   background-image: url(hatter.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
  }
 
  .bk {
@@ -49,7 +52,7 @@
    height: 1000px;
  }
 
- @media screen and (max-width: 1300px) {
+ @media screen and (max-width: 1300000px) {
    .sidebar {
      width: 100%;
      height: auto;
@@ -108,3 +111,22 @@
 .szek {
    padding-left: 15%;
  }
+.borde{
+  border-radius: 100px;
+}
+footer{
+  background-color: #008B8B;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.impr{
+  background-color: beige;
+  width: auto;
+  text-align: center;
+
+}
+.eg{
+  background-color: rgb(65, 125, 182);
+  margin: 5% 5% 5% 5%;
+}
