@@ -15,8 +15,6 @@
  .email {
    text-align: center;
    font-size: 130%;
-   border: 1px solid black;
-  
  }
 
  .sidebar {
@@ -127,6 +125,6 @@ footer{
 
 }
 .eg{
-  background-color: rgb(65, 125, 182);
-  margin: 5% 5% 5% 5%;
+  background-color: rgba(42, 54, 71, 0.644);
+  margin: 3% 3% 3% 3%;
 }
